@@ -43,8 +43,8 @@ def assemblage_frame_fun(assemblage_frame, main_frame, width_body, height_body):
 
     left_frame.place(x=0, y=50)
 
-    right_frame = tk.Frame(assemblage_frame, width=width_body * 0.7 - 10, height=height_body, bg='#000')
-    
+    right_frame = tk.Frame(assemblage_frame, width=width_body * 0.7 - 10, height=height_body, bg='#F1EFEF')
+
     p3_r2_frame = tk.Frame(right_frame, width=width_body * 0.7 - 10, height=height_body, bg='#F1EFEF')
     
     image_path1 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\24.png'  # Replace with your image path
@@ -54,6 +54,22 @@ def assemblage_frame_fun(assemblage_frame, main_frame, width_body, height_body):
     label1 = tk.Label(p3_r2_frame, image=img1, bd=0, highlightthickness=0)
     label1.image = img1  # Keep a reference to avoid garbage collection
     label1.place(x=0, y=0)
+
+    image_path2 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\dd.png'  # Replace with your image path
+
+    img2 = load_image(image_path2, 250, 200)
+
+    label2 = tk.Label(p3_r2_frame, image=img2, bd=0, highlightthickness=0)
+    label2.image = img2  # Keep a reference to avoid garbage collection
+    label2.place(x=0, y=200)
+
+    image_path3 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\dd.png'  # Replace with your image path
+
+    img3 = load_image(image_path3, 250, 200)
+
+    label3 = tk.Label(p3_r2_frame, image=img3, bd=0, highlightthickness=0)
+    label3.image = img3  # Keep a reference to avoid garbage collection
+    label3.place(x=400, y=200)
 
 
     p3_r2_frame.place(x=1, y=0)

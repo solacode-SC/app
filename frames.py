@@ -7,7 +7,7 @@ from PIL import Image, ImageTk
 
 
 def header_set(header):
-    header_label = tk.Label(header, text="Verification Automatique des regles de metiers", font=("Arial", 16), bg='white', fg='black')
+    header_label = tk.Label(header, text="Vérification automatique des règles métier", font=("Arial", 16), bg='white', fg='black')
     header_label.place(y=110)
 
     image_path1 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\1.png'  # Replace with your image path
@@ -39,7 +39,7 @@ def start_part(body, width_body, height_body):
         global a
         if a == 0:
             a = 1
-            new_img_path = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\\MedAllal\\program\\img\\7.png'  # Replace with your new image path
+            new_img_path = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\\MedAllal\\program\\img\\32.png'  # Replace with your new image path
             new_img = load_image(new_img_path, 400, 400)
             image_label.config(image=new_img)
             image_label.image = new_img  # Keep a reference to avoid garbage collection
@@ -128,7 +128,7 @@ def fill_new_frame(frame, main_frame, body, width_body, height_body):
     assemblage_button.image = assemblage_img  # Keep a reference to avoid garbage collection
     assemblage_button.place(x=650, y=60)
 
-    assemblage_desc_image_path = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\\MedAllal\\program\\img\\16.png'  # Replace with your image path
+    assemblage_desc_image_path = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\\MedAllal\\program\\img\\asmblgdesc.png'  # Replace with your image path
     assemblage_desc_img = load_image(assemblage_desc_image_path, 350, 300)
     assemblage_desc_button = tk.Button(frame, image=assemblage_desc_img, bg='white', bd=0, highlightthickness=0)
     assemblage_desc_button.image = assemblage_desc_img  # Keep a reference to avoid garbage collection
@@ -141,7 +141,7 @@ def fill_new_frame(frame, main_frame, body, width_body, height_body):
     # p3_button.pack(side='left', padx=20, pady=20)
     p3_button.place(x=150, y=60)
 
-    p3_desc_image_path = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\\MedAllal\\program\\img\\16.png'  # Replace with your image path
+    p3_desc_image_path = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\\MedAllal\\program\\img\\3pdesc.png'  # Replace with your image path
     p3_desc_img = load_image(p3_desc_image_path, 350, 300)
     p3_desc_button = tk.Button(frame, image=p3_desc_img, bg='white', bd=0, highlightthickness=0)
     p3_desc_button.image = p3_desc_img  # Keep a reference to avoid garbage collection
