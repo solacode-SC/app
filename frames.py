@@ -39,7 +39,7 @@ def start_part(body, width_body, height_body):
         global a
         if a == 0:
             a = 1
-            new_img_path = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\\MedAllal\\program\\img\\32.png'  # Replace with your new image path
+            new_img_path = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\\MedAllal\\program\\img\\aboutus.png'  # Replace with your new image path
             new_img = load_image(new_img_path, 400, 400)
             image_label.config(image=new_img)
             image_label.image = new_img  # Keep a reference to avoid garbage collection

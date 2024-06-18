@@ -67,21 +67,30 @@ def p3_frame_fun(p3_frame, main_frame, width_body, height_body):
     label1.image = img1  # Keep a reference to avoid garbage collection
     label1.place(x=0, y=0)
 
-    image_path2 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\dd.png'  # Replace with your image path
+    image_path2 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\ss.png'  # Replace with your image path
 
-    img2 = load_image(image_path2, 250, 200)
+    img2 = load_image(image_path2, 250, 180)
 
     label2 = tk.Label(p3_r3_frame, image=img2, bd=0, highlightthickness=0)
     label2.image = img2  # Keep a reference to avoid garbage collection
-    label2.place(x=0, y=200)
+    label2.place(x=180, y=180)
 
-    image_path3 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\dd.png'  # Replace with your image path
 
-    img3 = load_image(image_path3, 250, 200)
+    p3_r1_btn_path = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\\MedAllal\\program\\img\\check1.png'  # Replace with your image path
+    p3_r1_btn_img = load_image(p3_r1_btn_path, 200, 80)
+    p3_r1_btn = tk.Button(p3_r3_frame, image=p3_r1_btn_img, bg='white', bd=0, highlightthickness=0, cursor= "hand2", command=lambda: change_ass_r(3))
+    p3_r1_btn.image = p3_r1_btn_img  # Keep a reference to avoid garbage collection
+    # p3_button.pack(side='left', padx=20, pady=20)
+    p3_r1_btn.place(x=0, y=370)
 
-    label3 = tk.Label(p3_r3_frame, image=img3, bd=0, highlightthickness=0)
-    label3.image = img3  # Keep a reference to avoid garbage collection
-    label3.place(x=400, y=200)
+    image_path4 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\passwd.png'  # Replace with your image path
+
+    img4 = load_image(image_path4, 200, 80)
+
+    label4 = tk.Label(p3_r3_frame, image=img4, bd=0, highlightthickness=0)
+    label4.image = img4  # Keep a reference to avoid garbage collection
+    label4.place(x=400, y=370)
+
 
     p3_r3_frame.place(x=1, y=0)
 
@@ -103,21 +112,29 @@ def p3_frame_fun(p3_frame, main_frame, width_body, height_body):
     label2.image = img2  # Keep a reference to avoid garbage collection
     label2.place(x=100, y=900)
 
-    image_path2 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\dd.png'  # Replace with your image path
+    image_path2 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\ss.png'  # Replace with your image path
 
-    img2 = load_image(image_path2, 250, 200)
+    img2 = load_image(image_path2, 250, 180)
 
     label2 = tk.Label(p3_r2_frame, image=img2, bd=0, highlightthickness=0)
     label2.image = img2  # Keep a reference to avoid garbage collection
-    label2.place(x=0, y=200)
+    label2.place(x=180, y=180)
 
-    image_path3 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\dd.png'  # Replace with your image path
 
-    img3 = load_image(image_path3, 250, 200)
+    p3_r1_btn_path = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\\MedAllal\\program\\img\\check1.png'  # Replace with your image path
+    p3_r1_btn_img = load_image(p3_r1_btn_path, 200, 80)
+    p3_r1_btn = tk.Button(p3_r2_frame, image=p3_r1_btn_img, bg='white', bd=0, highlightthickness=0, cursor= "hand2", command=lambda: change_ass_r(3))
+    p3_r1_btn.image = p3_r1_btn_img  # Keep a reference to avoid garbage collection
+    # p3_button.pack(side='left', padx=20, pady=20)
+    p3_r1_btn.place(x=0, y=370)
 
-    label3 = tk.Label(p3_r2_frame, image=img3, bd=0, highlightthickness=0)
-    label3.image = img3  # Keep a reference to avoid garbage collection
-    label3.place(x=400, y=200)
+    image_path4 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\passwd.png'  # Replace with your image path
+
+    img4 = load_image(image_path4, 200, 80)
+
+    label4 = tk.Label(p3_r2_frame, image=img4, bd=0, highlightthickness=0)
+    label4.image = img4  # Keep a reference to avoid garbage collection
+    label4.place(x=400, y=370)
 
 
     p3_r2_frame.place(x=1, y=0)
@@ -132,21 +149,36 @@ def p3_frame_fun(p3_frame, main_frame, width_body, height_body):
     label1.image = img1  # Keep a reference to avoid garbage collection
     label1.place(x=0, y=0)
 
-    image_path2 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\dd.png'  # Replace with your image path
+    image_path2 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\36.png'  # Replace with your image path
 
     img2 = load_image(image_path2, 250, 200)
 
     label2 = tk.Label(p3_r1_frame, image=img2, bd=0, highlightthickness=0)
     label2.image = img2  # Keep a reference to avoid garbage collection
-    label2.place(x=0, y=200)
+    label2.place(x=0, y=160)
 
-    image_path3 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\dd.png'  # Replace with your image path
+    image_path3 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\37.png'  # Replace with your image path
 
     img3 = load_image(image_path3, 250, 200)
 
     label3 = tk.Label(p3_r1_frame, image=img3, bd=0, highlightthickness=0)
     label3.image = img3  # Keep a reference to avoid garbage collection
-    label3.place(x=400, y=200)
+    label3.place(x=400, y=160)
+
+    p3_r1_btn_path = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\\MedAllal\\program\\img\\check1.png'  # Replace with your image path
+    p3_r1_btn_img = load_image(p3_r1_btn_path, 200, 80)
+    p3_r1_btn = tk.Button(p3_r1_frame, image=p3_r1_btn_img, bg='white', bd=0, highlightthickness=0, cursor= "hand2", command=lambda: change_ass_r(3))
+    p3_r1_btn.image = p3_r1_btn_img  # Keep a reference to avoid garbage collection
+    # p3_button.pack(side='left', padx=20, pady=20)
+    p3_r1_btn.place(x=0, y=370)
+
+    image_path4 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\passwd.png'  # Replace with your image path
+
+    img4 = load_image(image_path4, 200, 80)
+
+    label4 = tk.Label(p3_r1_frame, image=img4, bd=0, highlightthickness=0)
+    label4.image = img4  # Keep a reference to avoid garbage collection
+    label4.place(x=400, y=370)
 
     p3_r1_frame.place(x=1, y=0)
 

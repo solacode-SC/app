@@ -25,7 +25,7 @@ def assemblage_frame_fun(assemblage_frame, main_frame, width_body, height_body):
     # Main frame with image and buttons
     left_frame = tk.Frame(assemblage_frame, width=width_body * 0.3, height=height_body - 50, bg='#F1EFEF')
 
-    p3_r1_image_path = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\\MedAllal\\program\\img\\25.png'  # Replace with your image path
+    p3_r1_image_path = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\\MedAllal\\program\\img\\39.png'  # Replace with your image path
     p3_r1_img = load_image(p3_r1_image_path, 200, 80)
     p3_r1_button = tk.Button(left_frame, image=p3_r1_img, bg='white', bd=0, highlightthickness=0, cursor="hand2", command=lambda: change_ass_r(1))
     p3_r1_button.image = p3_r1_img  # Keep a reference to avoid garbage collection
@@ -145,6 +145,18 @@ def assemblage_frame_fun(assemblage_frame, main_frame, width_body, height_body):
     entry3 = tk.Entry(p3_r1_frame)
     entry3.place(x= 150, y=320)
     entry3.config(state='disabled')
+
+
+    type_of_toles = tk.Label(p3_r1_frame, text="RESULT :", font=("Arial", 10), bg='#F1EFEF', fg='black')
+    type_of_toles.place(x= 430, y=200)
+
+    image_path4 = 'C:\\Users\\synel\\Desktop\\myProjects\\Programming\\Python\\python tkinter\MedAllal\\program\\img\\PSEN.png'  # Replace with your image path
+
+    img4 = load_image(image_path4, 140, 140)
+
+    label4 = tk.Label(p3_r1_frame, image=img4, bd=0, highlightthickness=0)
+    label4.image = img4  # Keep a reference to avoid garbage collection
+    label4.place(x=430, y=250)
 
     # Create a submit button to get the values
     submit_btn = tk.Button(p3_r1_frame, text="Check", command=get_all_values)
